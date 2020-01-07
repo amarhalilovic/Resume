@@ -1,0 +1,124 @@
+/* Name : Amar Halilovic
+Course : CS412 Web Application Development 
+Assigment : Resume
+Due Date : 11.01.2020.
+Purpose : The purpose is to create resume for project for Web Application Development
+
+
+/*setting background images*/
+
+body {
+    background-image: url(images/background.png);
+    background-repeat: repeat;
+}
+
+
+/*setting background on side where is picture*/
+
+div#imagep {
+    background-color: rgb(106, 119, 231);
+}
+
+
+/*setting main div*/
+
+div#mainwindow {
+    margin-top: 40px;
+}
+
+
+/*positioning main image*/
+
+img#maini {
+    margin-top: 20px;
+}
+
+
+/*setting of the color of the right side of main div*/
+
+div#info {
+    background-color: white;
+}
+
+
+/*positioning of icon of education*/
+
+div#education {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+/*setting colors of the info of contact on left side*/
+
+h1.a,
+a.a,
+div.a {
+    color: white;
+}
+
+
+/*positioning of icons for skills, languages and projects*/
+
+div#skills,
+div#languages,
+div#projects {
+    margin-left: 15px;
+}
+
+
+/*setting border and position of the boxes of education, skill, languages, and projects*/
+
+div#educationb,
+div#skillsb,
+div#languagesb,
+div#projectsb {
+    border: 1px solid black;
+    margin-left: 45px;
+    margin-right: 20px;
+}
+
+
+/*links on the names of projects*/
+
+a.projecth {
+    color: black;
+}
+
+
+/*Setting of the footer part*/
+
+div#footer {
+    background-color: rgb(13, 22, 22);
+}
+
+
+/*setting form in footer part*/
+
+div#f {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+/*Colors of text in footer part*/
+
+h3#contactf,
+label.contactl {
+    color: white;
+}
+
+
+/*Positioning text in form.php*/
+
+h1#h1 {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+
+/*positioning button in form.php*/
+
+button#button {
+    margin-left: 200px;
+}
